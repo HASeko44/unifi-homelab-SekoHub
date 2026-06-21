@@ -35,8 +35,8 @@ Multi-site deployment managed through centralized UniFi Network Controller.
 
 | VLAN | Name | Subnet | Purpose |
 |------|------|--------|---------|
-| 10 | Trusted | Personal devices, computers, phones | Full network access |
-| 20 | Guest | Visitor WiFi, isolated |  Internet-only, time-limited |
+| Trusted | Personal devices, computers, phones | Full network access |
+| Guest | Visitor WiFi, isolated |  Internet-only, time-limited |
 | IoT | Smart home devices | Restricted, internet-blocked except HomeKit gateways |
 | Test/Lab | New device/config testing | Isolated from production |
 
