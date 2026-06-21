@@ -28,18 +28,19 @@ Personal network infrastructure for learning enterprise networking, security bes
 
 Multi-site deployment managed through centralized UniFi Network Controller.
 
-![Network Topology](diagrams/network-topology.png)
+
 *(Network diagram coming soon)*
 
 ### VLAN Structure
 
 | VLAN | Name | Subnet | Purpose |
 |------|------|--------|---------|
-| 10 | Trusted | 192.168.10.0/24 | Work computers, personal devices |
-| 20 | Guest | 192.168.20.0/24 | Visitor WiFi, isolated |
-| 30 | IoT | 192.168.30.0/24 | Smart home devices |
-| 40 | Security | 192.168.40.0/24 | Cameras, NVR |
-| 99 | Management | 192.168.99.0/24 | Network equipment |
+| 10 | Trusted | Personal devices, computers, phones | Full network access |
+| 20 | Guest | Visitor WiFi, isolated |  Internet-only, time-limited |
+| IoT | Smart home devices | Restricted, internet-blocked except HomeKit gateways |
+| Test/Lab | New device/config testing | Isolated from production |
+
+*Specific IP ranges are anonymized for security purposes.*
 
 ---
 
