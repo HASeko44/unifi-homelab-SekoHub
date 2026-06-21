@@ -8,19 +8,19 @@ Personal network infrastructure for learning enterprise networking, security bes
 
 ## 🏠 Equipment
 
-### Site 1 - Primary Location
+### Site 1 - Poland (House)
 - **Router/Controller**: UniFi Dream Machine SE (UDM SE)
 - **Switch**: UniFi Switch Pro 24 PoE (24 ports)
 - **Access Points**: 2x UniFi U6 Pro (WiFi 6)
-- **Security**: UniFi G4 Instant Camera
+- **Security**: UniFi G4 Instant Camera, 3x G5 Bullet (planned), UniFi Protect NVR
 - **Clients**: ~30+ devices (computers, phones, tablets, smart home)
 
-### Site 2 - Secondary Location
+
+### Site 2 - Norway (Apartment)
 - **Router**: UniFi Dream Router
 - **Switch**: UniFi Switch 16
 - **Clients**: ~15+ devices
 
-**Total Investment**: ~$2000 USD in professional-grade equipment
 
 ---
 
@@ -33,10 +33,10 @@ Multi-site deployment managed through centralized UniFi Network Controller.
 
 ### VLAN Structure
 
-| VLAN | Name | Subnet | Purpose |
-|------|------|--------|---------|
+| VLAN | Purpose | Access Level |
+|------|---------|---------------|
 | Trusted | Personal devices, computers, phones | Full network access |
-| Guest | Visitor WiFi, isolated |  Internet-only, time-limited |
+| Guest | Visitor WiFi | Internet-only, time-limited |
 | IoT | Smart home devices | Restricted, internet-blocked except HomeKit gateways |
 | Test/Lab | New device/config testing | Isolated from production |
 
