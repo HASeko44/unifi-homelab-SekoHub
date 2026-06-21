@@ -5,7 +5,7 @@ Two physically separate networks - one in an apartment in Norway, one in a stand
 
 | Site | Location | Equipment |
 |------|----------|-----------|
-| Site 1 | Norway (apartment) | UDM SE, Switch Pro 24 PoE, 2x U6 Pro, G4 Instant |
+| Site 1 | Norway (apartment) | UDM SE, Switch Pro 24 PoE, 2x U6 Pro |
 | Site 2 | Poland (house) | Dream Router, Switch 16 |
 
 ## Why Centralized Management
