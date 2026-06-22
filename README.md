@@ -55,6 +55,8 @@ Centralized controller managing two separate locations. Remote monitoring, confi
 ### 3. [Smart Home Integration](projects/03-smart-home.md)
 Apple HomeKit network with Thread and Bluetooth mesh. Cross-VLAN communication for automation while maintaining security isolation.
 
+### 4. [Security Camera System & Backup Strategy](projects/04-security-surveillance.md)
+Local NVR storage with offsite cloud backup for disaster recovery, with a scalable storage expansion plan.
 ---
 
 ## 💡 Skills Demonstrated
