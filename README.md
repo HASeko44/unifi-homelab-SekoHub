@@ -12,7 +12,7 @@ Personal network infrastructure for learning enterprise networking, security bes
 - **Router/Controller**: UniFi Dream Machine SE (UDM SE)
 - **Switch**: UniFi Switch Pro 24 PoE (24 ports)
 - **Access Points**: 2x UniFi U6 Pro (WiFi 6)
-- **Security**: UniFi G4 Instant Camera, 3x G5 Bullet (planned), UniFi Protect NVR
+- **Security**: UniFi G4 Instant Camera, 3x G5 Bullet (planned), UniFi Protect NVR, UPS
 - **Clients**: ~30+ devices (computers, phones, tablets, smart home)
 
 
